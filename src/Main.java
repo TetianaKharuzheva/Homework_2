@@ -54,9 +54,9 @@ public class Main {
         char a = 'H';
         char b = (char) (a + 12);
         System.out.printf("Task_7 : a = " + a);
-        System.out.println(" and " + b );
+        System.out.println(" and b = " + b );
 
-//      task_8
+
 
 
 
