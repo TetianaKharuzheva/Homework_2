@@ -2,10 +2,6 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-//        System.out.printf("Hello and welcome!");
-
 //      task_1
         int width;
         int lenght;
@@ -23,11 +19,11 @@ public class Main {
         System.out.println("Task_2 : BodyMassIndex = " + bodyMassIndex);
 
 //      task_3
-        double temperatureC = 26;
+        double temperatureCelcius = 26;
         double temperatureF;
         double index1 = 9.0;
         double index2 = 5.0;
-        temperatureF = (index1 / index2)* temperatureC + 32;
+        temperatureF = (index1 / index2)* temperatureCelcius + 32;
         System.out.println("Task_3 : TemperatureF = " + temperatureF);
 
 //      task_4
@@ -43,7 +39,6 @@ public class Main {
         System.out.printf("Task_5 : VariableFractional = " + variableFractional);
         System.out.println(" and " + variableInteger );
 
-
 //      task_6
         int age1 = 18;
         int age2 = 43;
@@ -55,29 +50,5 @@ public class Main {
         char b = (char) (a + 12);
         System.out.printf("Task_7 : a = " + a);
         System.out.println(" and b = " + b );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         }
     }
